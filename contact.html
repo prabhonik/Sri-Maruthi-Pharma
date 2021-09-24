@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <a href="#" id="maruti"><b>MARUTHI PHARMA</b></a>
+            <ul  style="list-style-type: none;" id="menu"><b></b>
+                <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT</b></a></li>
+                         <li><a href="about.html"><b>ABOUT</b></a></li>
+                             <li><a href="admin.php"><b>ADMIN</b></a></li>
+            </ul>
+            <div id="random">
+                <div class="line" id="one"></div>
+                    <div class="line" id="two"></div>
+                        <div class="line" id="three"></div>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul style="list-style-type: none;" class="mobile-menu-items">
+                <li><b><a href="index.html">HOME</a></b></li>
+                    <li><b><a href="contact.html">CONTACT</a></b></li>
+                         <li><b><a href="about.html">ABOUT</a></b></li>
+                            <li><b><a href="admin.php">ADMIN</a></b></li>
+            </ul>
+        </div>
+    </header>
+      <section><div class="container">
+        <span class="big-circle"></span>
+        <img src="imgages/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Please fill the form, We would love to hear it from you on your query. Also follow us on our Social media handels for more updates.
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <img src="images/imglocation.png" class="icon" alt="" />
+                <p>Chamrajpet, Bangalore</p>
+              </div>
+              <div class="information">
+                <img src="images/imgemail.png" class="icon" alt="" />
+                <p>srimaruthipharma@gmail.com</p>
+              </div>
+              <div class="information">
+                <img src="images/imgphone.png" class="icon" alt="" />
+                <p>9876543210</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="feedback.php" method="POST" onsubmit="return validate()" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" required />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" required/>
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="mobile" class="input" required minlength="10" maxlength="15"/>
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="submit" name="submit" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="contact.js">
+        
+    </script>
+
+<a href="https://wa.me/919876543210" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+  </body>
+</html>

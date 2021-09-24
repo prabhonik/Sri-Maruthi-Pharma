@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Maruthi Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="maruti" style="list-style: none; text-decoration: none;"><b>MARUTHI PHARMA</b></a>
+            <ul style="list-style: none;" id="menu"><b></b>
+                <li><a href="index.html"><b>HOME</b></a></li>
+                    <li><a href="contact.html"><b>CONTACT</b></a></li>
+                         <li><a href="#"><b>ABOUT</b></a></li>
+                             <li><a href="admin.php"><b>ADMIN</b></a></li>
+            </ul>
+            <div id="random">
+                <div class="line" id="one"></div>
+                    <div class="line" id="two"></div>
+                        <div class="line" id="three"></div>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu-items">
+                <li><b><a href="index.html">HOME</a></b></li>
+                    <li><b><a href="contact.html">CONTACT</a></b></li>
+                         <li><b><a href="#">ABOUT</a></b></li>
+                            <li><b><a href="admin.php">ADMIN</a></b></li>
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        document.getElementById("random").addEventListener("click",function(){
+            this.classList.toggle("active");
+            document.querySelector(".mobile-menu").classList.toggle("active");
+        })
+    </script>
+    <div class="container">
+  <h1>ABOUT-US</h1>
+</div>
+<div class="vediobg">
+    <video autoplay="" loop="" muted="" width="89%" poster="" preload="none" id="1"><source src="images/about-smp.mp4" type="video/mp4"></video>
+   
+</div>
+<div class="container">
+  
+    <p>SMP is a company, established under a mission of service to humanity, we provide a
+        wide range of pharmaceuticals and we are building a reputation of quality and integrity known
+        around the world.</p>
+<br>
+        <p>
+            The products that we supply at SMP Meets the best safety and quality standards. We are being
+            audited regularly by officials to ensure that the highest safety and quality criteria were met.
+        </p>
+    </div>
+     
+
+<div class="container1">
+    <img src="images/img1.jpg" alt="">
+    <div class="text">
+        <h2>Improving global health through public standards</h2>
+        <p>We are committed to the quality of medicines and to protecting patients, helping build the public's trust and confidence in drug therapies, enabling people to live longer and healthier.</p>
+    </div>
+</div>
+ <div class="text1"> <h2>Improving global health through public standards</h2>
+    <p>We are committed to the quality of medicines and to protecting patients, helping build the public's trust and confidence in drug therapies, enabling people to live longer and healthier.</p></div>
+    <a href="https://wa.me/919876543210" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+
+</body>
+</html>
